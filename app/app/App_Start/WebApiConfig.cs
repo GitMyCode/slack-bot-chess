@@ -1,15 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
 using System.Web.Http;
+
 using Microsoft.Owin.Security.OAuth;
-using Newtonsoft.Json.Serialization;
+
+using SLACKBOT.Infrastructure.Serialization;
 
 namespace app
 {
     public static class WebApiConfig
     {
+        #region Methods
+
         public static void Register(HttpConfiguration config)
         {
             // Web API configuration and services
@@ -21,10 +22,17 @@ namespace app
             config.MapHttpAttributeRoutes();
 
             config.Routes.MapHttpRoute(
-                name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
+                name: "DefaultApi", 
+                routeTemplate: "api/{controller}/{id}", 
                 defaults: new { id = RouteParameter.Optional }
-            );
+                );
+
+            config.Formatters.Remove(config.Formatters.XmlFormatter);
+
+            // Ensures that the JSON output is in camelCase and handles empty string well.
+            config.Formatters.JsonFormatter.SerializerSettings.ContractResolver = new EmptyStringContractResolver();
         }
+
+        #endregion
     }
 }

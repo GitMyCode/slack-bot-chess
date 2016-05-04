@@ -61,3 +61,5 @@ C:\Users\marma\REPO\slack-bot-chess\app\app\bin\System.Web.Http.Owin.xml
 C:\Users\marma\REPO\slack-bot-chess\app\app\obj\Debug\app.csprojResolveAssemblyReference.cache
 C:\Users\marma\REPO\slack-bot-chess\app\app\obj\Debug\app.dll
 C:\Users\marma\REPO\slack-bot-chess\app\app\obj\Debug\app.pdb
+C:\Users\marma\REPO\slack-bot-chess\app\app\bin\SLACKBOT.Infrastructure.dll
+C:\Users\marma\REPO\slack-bot-chess\app\app\bin\SLACKBOT.Infrastructure.pdb

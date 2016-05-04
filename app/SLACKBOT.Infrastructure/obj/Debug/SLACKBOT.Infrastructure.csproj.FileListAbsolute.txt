@@ -1,0 +1,7 @@
+C:\Users\marma\REPO\slack-bot-chess\app\SLACKBOT.Infrastructure\bin\Debug\SLACKBOT.Infrastructure.dll
+C:\Users\marma\REPO\slack-bot-chess\app\SLACKBOT.Infrastructure\bin\Debug\SLACKBOT.Infrastructure.pdb
+C:\Users\marma\REPO\slack-bot-chess\app\SLACKBOT.Infrastructure\bin\Debug\Newtonsoft.Json.dll
+C:\Users\marma\REPO\slack-bot-chess\app\SLACKBOT.Infrastructure\bin\Debug\Newtonsoft.Json.xml
+C:\Users\marma\REPO\slack-bot-chess\app\SLACKBOT.Infrastructure\obj\Debug\SLACKBOT.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\marma\REPO\slack-bot-chess\app\SLACKBOT.Infrastructure\obj\Debug\SLACKBOT.Infrastructure.dll
+C:\Users\marma\REPO\slack-bot-chess\app\SLACKBOT.Infrastructure\obj\Debug\SLACKBOT.Infrastructure.pdb
